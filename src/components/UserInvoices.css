@@ -1,0 +1,69 @@
+.user-invoices {
+  padding: 20px;
+}
+
+.user-invoices h2 {
+  margin-bottom: 20px;
+}
+
+.user-invoices-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.user-invoices-heading > input {
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  margin-right: 10px;
+}
+
+.invoice-stats {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.invoice-card {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.invoice-card h3 {
+  margin-bottom: 10px;
+}
+
+.invoice-card p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.add-invoice-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.add-invoice-button:hover {
+  background-color: #0056b3;
+}
+
+.invoice-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.invoice-list li {
+  padding: 8px;
+  background-color: #f1f1f1;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}

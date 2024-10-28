@@ -1,0 +1,56 @@
+/* UserDashboard.css */
+.user-dashboard {
+  padding: 20px;
+}
+
+.user-dashboard h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.dashboard-section {
+  display: flex;
+  gap: 20px;
+}
+
+.sales-chart,
+.notifications {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.chart-placeholder {
+  height: 200px;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.recent-invoices {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.invoice-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.notification-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.notification-time {
+  font-size: 0.9em;
+  color: #888;
+  margin-left: 10px;
+}

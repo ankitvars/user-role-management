@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.navbar-left h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
