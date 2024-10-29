@@ -29,6 +29,7 @@ const LoginForm: React.FC = () => {
 
       // Save login info to local storage
       localStorage.setItem("userRole", role)
+      window.location.replace("/dashboard")
     } else {
       toast.error("Invalid email or password.")
     }
